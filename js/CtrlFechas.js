@@ -30,4 +30,4 @@ var forma = document.getElementById("forma"),
    (semana ? " | "+semana.toISOString(): "");
    salidaMes.textContent = txtMes.type + " | "+ txtMes.value +
    (mes ? " | "+mes.toISOString(): "");
-}
+ }
